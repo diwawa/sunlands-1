@@ -1,0 +1,536 @@
+@charset "utf-8";
+
+
+body,html{
+    font-size: 20px;
+    font-family: "微软雅黑";
+}
+/*@media (min-width: 321px) and (max-width: 435px){
+    body,html{
+        font-size: 25px;
+    }
+}
+@media (min-width: 435px) and (max-width: 600px){
+    body,html{
+        font-size: 40px;
+    }
+}
+@media (min-width: 601px) {
+    body,html{
+        font-size: 46px;
+    }
+}
+*/
+
+.title{
+	margin: 46px auto 80px auto;
+	font-family: "微软雅黑";
+	font-size: 50px;
+	font-weight:bold;
+	width: 80%;
+}
+.title span{
+	color:#e93a57;
+}
+.title h1{
+	font-size: 50px;
+	font-weight:bold;
+}
+h2{
+	font-size: 38px;
+	margin: 30px auto;	
+}
+
+.aBtn{
+	margin-top: 60px;
+	width: 36%;
+	height: 77px;
+	line-height:60px;
+	vertical-align:middle;
+	font-size: 39px;
+	color: #fafafa;
+	background: #2c3242;
+	margin-bottom:60px;
+}
+
+
+.container{
+	max-width: 690px;
+	margin:auto;
+	min-width: 320px;
+}
+
+.content{
+	width: 100%;
+	text-align: center;
+	border: 0;
+	padding: 10px;
+	margin: auto;
+	overflow: hidden;	
+}
+
+
+/*header*/
+.header .content{	
+	position: relative;
+	overflow: hidden;
+	background: #fafafa;
+}
+.content img{
+	width: 100%;
+	margin: 0px;
+	border: 0;
+	padding: 0;
+}
+
+
+/* header 自适应*/
+@media (max-width: 640px){
+    .title{
+        font-size: 40px;
+        margin: 30px auto 30px auto;
+
+    }
+    h2{
+    	font-size: 36px;
+    }
+    .aBtn{
+    	font-size: 32px;
+    	margin-top: 40px;
+		margin-bottom:40px;
+		height: 60px;
+		line-height: 40px;
+    }
+
+    .title h1{
+		font-size: 32px;
+		font-weight:bold;
+	}
+}
+
+
+@media (max-width:460px){
+	.title{
+        font-size: 24px;
+        margin: 10px auto 25px auto;
+        
+    }
+    h2{
+    	font-size: 20px;
+    }
+    .aBtn{
+    	font-size: 18px;
+    	margin-top: 20px;
+		margin-bottom:20px;
+		height: 50px;
+		line-height: 38px
+    }
+}
+
+
+
+
+.content{
+	width: 100%;
+	text-align: center;
+	border: 0;
+	padding: 10px;
+	margin: auto;
+}
+
+/*page01 */
+
+.page01 .font .tab{
+	margin: 50px auto;
+	width: 100%;
+	text-align: center;
+}
+
+.page01 .font .tab a{
+	display: inline-block;3
+	width: 167px;
+	height: 44px;
+	line-height:44px;
+	vertical-align:middle;
+	font-size: 26px;
+	color: #fafafa;
+	background: #2c3242;
+	text-decoration: none;
+	margin: 2px;
+}
+
+.page01 .font .tab a:nth-child(1){
+	background: #646363;
+}
+
+.page01 .font .tab a:nth-child(2){
+	background: #df6363;
+}
+.page01 .font .tab a:nth-child(3){
+	background: #7ac470;
+}
+.page01 .font .tab a:nth-child(4){
+	background: #df6363;
+}
+.page01 .font .tab a:nth-child(5){
+	background: #646363;
+}
+.page01 .font .tab a:nth-child(6){
+	background: #66c5e4;
+}
+.page01 .font .tab a:nth-child(7){
+	background: #ffc001;
+}
+.page01 .font .tab a:nth-child(8){
+	background: #7ac470;
+}
+.page01 .font .tab a:nth-child(9){
+	background: #646363;
+}
+
+
+@media (max-width: 660px){
+
+	.title h1{
+		font-size: 32px;
+		font-weight:bold;
+	}
+	.page03 .content .font p{
+		font-size: 18px
+	}
+	.page01 .font .tab a{
+		font-size: 18px;
+	}
+	.page02 .container .content .font .introduction{
+		font-size: 18px;
+		line-height: 42px
+	}
+	.page02 .container .content .font .tips h2{
+		top: -16px;
+		font-size: 24px;
+	}
+
+	.page02  .container .content .font .tips p{
+		font-size: 20px;
+    
+    	margin: 10px 28px 15px 28px;
+	}
+
+	.page04 .container .content .font .protocol a{
+    	font-size: 15px;
+    	height: 40px;
+    	line-height: 35px;
+
+    }
+    .page06 .container .content .title h1 {
+    font-size: 38px;
+		}
+	.page06 .container .content .title p {
+    	font-size: 22px;
+	}
+
+}
+@media (max-width:460px){
+	.title h1{
+		font-size: 24px;
+		font-weight:bold;
+	}
+	.page03 .container .content .font p{
+		font-size: 8px
+	}
+	.page01 .font .tab a{
+		font-size: 12px;
+	}
+	.page02 .container .content .font .introduction{
+		font-size: 13px;
+		line-height: 36px
+	}
+
+	.page02 .container .content .font .tips h2{
+		top: -15px;
+		font-size: 18px;
+	}
+	.page02 .container .content .font .tips p{
+		font-size: 15px;
+	}
+    .page02 .container .content .font .tips{
+    	margin-left: 30px;
+    	margin-right: 30px;
+    }
+
+
+    .page04 .container .content .font .protocol{
+		width: 100%;
+		padding: 40px 5px;
+
+	}
+
+    .page06 .container .content .title h1 {
+    	font-size: 32px;
+	}
+	.page06 .container .content .title p {
+    	font-size: 20px;
+	}
+
+	.page06 .container .content p.help{
+		font-size: 18px;
+	}
+    
+}
+
+
+/*page02*/
+
+.page02 .content {
+	background: #fafafa;
+}
+.page02 .content .font .introduction {	
+	padding: 30px 26px;
+	line-height: 45px;
+	font-size: 28px;
+}
+
+.page02 .content .font .tips{
+	height: 180px;
+	border:2px solid #2c3242;
+	position: relative;
+	margin-top: 84px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.page02 .content .font .tips h2{
+		top: -34px;
+    	left: 24%;
+    	display: block;
+    	width: 55%;
+    	position: relative;
+    	margin: 0;
+    	font-size: 48px;
+    	color: #3a3a3a;
+    	padding: 0px 15px;
+    	font-weight: bold;
+    	background: #fafafa;
+	}
+.page02 .content .font .tips p{
+	font-size: 28px;
+	line-height: 40px;
+	margin: 5px 28px 25px 28px
+}
+
+
+.title{
+	    margin: 46px auto 40px auto;
+}
+
+/*page03*/
+
+.aBtn-1{
+	width: 66%;
+}
+
+.page03 .content .title{
+
+	width: 100%;
+	font-weight:bold;
+	margin:65px 0 54px 0;
+}
+/*.page03 .content .title h1{
+	font-size: 50px; 	
+	font-weight: bold;	
+}*/
+
+
+.page03 .content .font p{
+	padding-left: 18px;
+	margin: 5px 25px 0px 25px;
+	text-align: left;
+	line-height: 52px;
+	font-size: 24px;
+	color: #3a3a3a;
+	background: #eaeaea;
+	font-weight:normal;
+}
+.page03 .content .font p.bg{
+	color: #ed3654;
+}
+
+
+/*page04*/
+
+.page04 .content{
+	background: #f1f1f1;
+	
+}
+
+.page04 .content .title{
+
+	width: 100%;
+	font-weight:bold;
+	margin:40 0 54px 0;
+}
+
+
+.page04 .content .font .protocol{
+	width: 100%;
+	padding: 50px 70px;
+
+}
+.page04 .content .font .protocol a{
+	display: inline-block;
+	width: 34%;
+	height: 54px;
+	border: 1px solid;
+	line-height:44px;
+	vertical-align:middle;
+	font-size: 26px;
+	color: #2c3242;
+	background: transparent;
+	text-decoration: none;	
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+
+/*page05*/
+
+.page05 .content{
+	background: #fef3d1;
+}
+
+
+.page05 .content .title img{
+	width: 100%;
+	margin: auto;
+}
+.page05 .content .title img.star{
+	width: 55%;
+}
+
+/*page06*/
+.page06 .content{
+	background: #c12d3b;
+	text-align: center;
+}
+.page06 .content .title{
+	color:#fefefe;
+}
+
+.page06 .content .title h1{
+	font-size: 48px;
+}
+
+.page06 .content .title p  span{
+	color:#080a0d;
+}
+.page06 .content .title p {
+    font-size: 28px;
+}
+
+.page06 .content p.help{
+	font-family: "宋体";
+	text-align: left;
+	margin-top: 20px;
+	display: block;
+	width: 100%;
+    color:#ffffff;
+    font-size:22px;
+    line-height: 25px;
+   	text-indent:2em;
+   	padding: 0px 20px 20px 20px; 
+}
+
+/*.page06 .container .content .title p{
+	color:#fefefe;
+	font-size: 28px;
+}
+.page06 .content .title span{
+	color: #080a0d;
+}*/
+
+
+/*.header-top h2{
+	font-size: 38px;
+	margin: 30px;	
+}
+
+.header-top .font a{
+	margin-top: 60px;
+	width: 250px;
+	height: 77px;
+	line-height:68px;
+	vertical-align:middle;
+	font-size: 39px;
+	color: #fafafa;
+	background: #2c3242;
+	margin-bottom: 120px;
+}*/
+/*#triangle-down {
+	margin:0px auto;
+    width: 100%;
+    height: 0;
+    border-left: 320px solid transparent;
+    border-right: 320px solid transparent;
+    border-top: 320px solid #ffc001;
+    
+}
+
+.header-top #logo{
+	position: absolute;
+    top: 120px;
+    left: 290px;
+	background: #a07a07;
+	z-index: 2;
+	width: 170px; 
+	height: 170px;
+	margin: 40px 0 0 40px;
+	-webkit-transform-origin:0 100%;
+	-moz-transform-origin: 0 100%; -o-transform-origin: 0 100%; -ms-transform-origin: 0 100%; transform-origin: 0 100%; -webkit-transform:rotate(-45deg); -moz-transform:rotate(-45deg); -o-transform:rotate(-45deg); -ms-transform:rotate(-45deg); transform:rotate(-45deg);
+
+}
+#triangle-down img{
+	z-index: 3;
+    position: absolute;
+   	top: 176px;
+    left: 207px;
+}
+#triangle-left {
+    position: absolute;
+    padding: 0px;
+    top: 36px;
+    left: 319px;
+    width: 50%;
+    height: 0;
+    border-top: 305px solid transparent;
+    border-right: 308px solid grey;
+    border-bottom: 305px solid transparent;
+}
+
+#triangle-right {
+	position: absolute;
+    padding: 0px;
+    top: 36px;
+    left: 10px;
+    width: 50%;
+    height: 0;
+    border-top: 305px solid transparent;
+    border-left: 308px solid #f0f0f0;
+    border-bottom: 305px solid transparent;   
+}
+
+  绝对定位水平居中 
+
+.header-top .font{
+	width: 80%;
+	left: 50%;
+	margin-left: -40%;
+	position: absolute;
+	text-align: center;
+}
+.header-top .font h1{
+
+}
+.header-top .font h1 span{
+	
+}*/
+
+
